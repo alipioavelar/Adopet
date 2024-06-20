@@ -1,1 +1,49 @@
-a
+# Contexto
+
+Nossa missão é transformar a vida de animais abandonados, oferecendo a eles uma segunda chance por meio da adoção responsável. Fundada com o coração e a paixão de defensores dos direitos dos animais, a ADOPET tem se dedicado a resgatar, reabilitar e realocar animais de rua em lares onde possam receber o amor e cuidado que tanto merecem.
+Na ADOPET, entendemos que cada animal é único e possui suas próprias necessidades e personalidades. Por isso, nossa equipe de voluntários e profissionais trabalha incansavelmente para garantir que cada adoção seja uma combinação perfeita, tanto para o animal quanto para a família adotiva. Acreditamos que a adoção é um ato de amor que beneficia não apenas os animais, mas também as pessoas que os acolhem, trazendo alegria, companheirismo e um profundo senso de propósito.
+Nossa jornada é impulsionada por valores de compaixão, respeito e compromisso com o bem-estar animal. Promovemos campanhas de conscientização, programas de educação e eventos comunitários para engajar a sociedade na causa animal, destacando a importância da adoção responsável e do tratamento ético dos animais
+  
+## Descrição do Trabalho
+
+Nesta disciplina, temos como objetivo conduzir o processo iterativo e incremental de desenvolvimento de uma aplicação completam a partir das técnicas e ferramentas de Web front end e por meio do trabalho em equipe. 
+ 
+Esta disciplina converge o que é visto em outras disciplinas do semestre, mas em especial, Algoritmos e Estruturas de Dados, Introdução à Computação, Desenvolvimento de Interfaces Web.
+A abordagem metodológica utilizada para a condução do trabalho nessa disciplina abrange dois frameworks muito utilizados no mercado em projetos de desenvolvimento de software: o Design Thinking e o Scrum Framework, conforme apresentado na Figura 1. O Design Thinking é utilizado na primeira etapa que chamamos de Concepção, em que montamos os grupos e definimos o problema a ser tratado. O Scrum Framework é utilizado na segunda etapa que chamamos de Desenvolvimento
+
+
+## Problema
+
+Perante o exposto, o problema a ser resolvido com este projeto se trata da 
+dificuldade de encontrar um meio eficiente, fácil e seguro para conectar doadores e 
+receptores de doações diversas.  
+
+## Objetivos
+
+O presente objetivo desse trabalho se destinação a criação de uma página 
+destinada a unir doadores e entidades destinatárias à doação, de uma forma 
+simplificada, eficiente e patrocinada, gerando recompensas como incentivo a cada ato 
+de doação realizado.  
+Como objetivo específico, podemos destacar:
+- Uma página exclusiva dedicada a doações, ao qual será descrito com 
+clareza a entidade que será beneficiada;
+- A contribuição se dará através de transferências bancárias na modalidade 
+e valor de preferência do usuário, que poderá se aliar a outros doadores 
+para atingir a quantia necessária tencionada para disponibilidade do item 
+aos donatários;
+- Não haverá necessidade de deslocamento ou qualquer transtorno ao 
+doador;
+- A cada doação, será disponibilizado um voucher de desconto e vantagens 
+diversas oferecidas pelas empresas patrocinadoras do projeto.
+ 
+## Justificativa
+
+Atualmente há uma carência de locais adequados e de fácil acesso para se realizar adoções de animais.  
+No caso em concreto, será aplicado a técnica denominada de “gamification”, onde é oferecido ao usuário um sistema de recompensas, como vouchers, a cada ato 
+efetuado, tornando assim o ato mais atraente e também benéfico ao doador.  
+Com a criação de um meio de acesso facilitado, preciso e claro em seus objetivos, aliados aos incentivos ofertados pelos patrocinadores, espera-se que haja 
+o aumento de interessados nessa prática social, uma vez que o método utilizado busca privilegiar ambos os lados: doador e donatário.  
+
+## Público-Alvo
+
+Como público alvo temos dois pólos, locais ou pessoas que querem cadastras o animal no site para que ele possa ser doado e um usuário, que busca um animal para adotar.  
