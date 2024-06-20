@@ -1,8 +1,8 @@
-# FILANTROPIX
+# ADOPET
 
-`Tecnologia em Análise e Desenv. de Sistemas`
+`Ciências da Computação`
 
-`Projeto Desenvolvimento de Aplicações Web Front-End`
+`Trabalho Interdiciplinar I - Web Front-End`
 
 `1º Semestre`
 
@@ -18,7 +18,9 @@ de doação realizado.
 
 ## Orientador
 
-* Ilo
+* Ilo Amy Saldanha Ribeiro
+* Luciana Mara Freitas Diniz
+* Carlos Alberto Marques Pietrobon
 
 # Documentação
 
