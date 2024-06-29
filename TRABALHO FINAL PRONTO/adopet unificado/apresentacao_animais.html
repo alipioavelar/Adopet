@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADOPET</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="apresentacao.css">
+</head>
+
+<body>
+  <header class="header__bg">
+    <div class="container">
+      
+     
+    </div>
+  </header>
+  
+  
+  <nav class="search__container">
+    <div class="container">
+      <form class="form__search">
+        
+      </form>
+    </div>
+  </nav>
+  <main>
+
+    
+    <div class="container" id="nossos"> </div>
+      <div class="row">
+        <h2  class=" text-center fst-italic fw-bold mb-4 text-light">
+          Nossos animais
+        </h2>
+          <div class="col-md-10">
+            <div class="tab-content">
+                <div class="row gap-3">
+                  <div class="card col-md-3" >
+                 
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+         
+  </main>
+
+  <div id="tela1"></div>
+
+  <script>
+    // Function to read data from localStorage
+    function ledados() {
+      let strdados = localStorage.getItem('animais');
+      let objdados = { animais: [] }; // Initialize objdados with an empty array
+
+      if (strdados) {
+        objdados.animais = JSON.parse(strdados);
+      }
+
+      return objdados;
+    }
+
+      // Function to print data
+      function imprimedados() {
+      let tela = document.getElementById('tela1');
+      let strhtml = '';
+      let objdados = ledados();
+        
+      if (objdados.animais && objdados.animais.length > 0) {
+        for (let i = 0; i < objdados.animais.length; i++) {
+          strhtml += `
+          <div class="container text-center">
+          <div class="row row-cols-2">
+          <div class="col">
+            
+            <div class="card" style="width: 18rem; margin-left:2rem;margin-top:2rem;">
+              <img src="${objdados.animais[i].foto}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">${objdados.animais[i].nome}</h5>
+                <p class="card-text">Raça: ${objdados.animais[i].raca} <br> Peso: ${objdados.animais[i].peso} <br> Personalidade: ${objdados.animais[i].personalidade}</p>
+              </div>
+              <div class="card-body">
+                <button type="button" class="bnt"><a href="detalhes.html?id=${i}">Adotar cao</a></button>
+
+                 
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>`;
+        }
+      } else {
+        strhtml = '<p class="m-5"><b>Nenhum animal cadastrado.</b></p>';
+      }
+
+      tela.innerHTML = strhtml;
+    }
+
+    
+
+    // Function to load data on page load
+    window.onload = function() {
+      imprimedados();
+    };
+  </script>
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container text-center fw-bold">
+      <p class="m-0">Todos os direitos reservados a ADOPET</p>
+    </div>
+  </footer>
+  <script src="./scripts/apresentacao.js"></script>
+
+
+
+
+
+
+  <!-- <a href="#" class="card-link text-primary" onclick="Adotaranimal(${i})"><p><b>Adotar</b></p></a> -->
+</body>
+</html>
